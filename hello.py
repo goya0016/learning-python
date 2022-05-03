@@ -16,6 +16,8 @@ name = input("Your name? ").strip().title()
 
 
 # print
+#  f is inseted with {} to make it use parameteres and insert value directly
+#  
 print("hello,", "\"name\"")
 print(f"hello, {name}")
 print("hello,",name)
