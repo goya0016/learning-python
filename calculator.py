@@ -1,36 +1,47 @@
-#basic started
+# #basic started
 
-# x=input("value of x")
-# y=input("value of y")
-# z= int(x)+int(y)
-# print (z)
-
-
-#simplified
-# x=int(input("value of x"))
-# y=int(input("value of y"))
-
-# #addition
-# print (x+y)
+# # x=input("value of x")
+# # y=input("value of y")
+# # z= int(x)+int(y)
+# # print (z)
 
 
-a=float(input("value of a = "))
-b=float(input("value of b = "))
+# #simplified
+# # x=int(input("value of x"))
+# # y=int(input("value of y"))
 
-#round off the decimal number
-# z= round(a/b)
+# # #addition
+# # print (x+y)
 
-#round off to only 2 decimal points
-# z= round(a/b,2)
 
-z= a/b
+# a=float(input("value of a = "))
+# b=float(input("value of b = "))
 
-#format strings , used to format large number
+# #round off the decimal number
+# # z= round(a/b)
 
-# print (f'{z: 2}')
+# #round off to only 2 decimal points
+# # z= round(a/b,2)
 
-# another way round off to only 2 decimal points
-# print (f'{z:.2f}') 
+# z= a/b
 
-print (f'{z:.2f}')
+# #format strings , used to format large number
 
+# # print (f'{z: 2}')
+
+# # another way round off to only 2 decimal points
+# # print (f'{z:.2f}')
+
+# print (f'{z:.2f}')
+
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
+
+
+def square(n):
+    return n * n
+
+
+if __name__ == "__main__":
+    main()
